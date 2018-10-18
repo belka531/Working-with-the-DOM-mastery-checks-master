@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>🔥 Warm Up 🔥</title>
+  <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
+  <link rel="icon" href="https://images.vexels.com/media/users/3/143402/isolated/preview/afbbf15d5e82a1c4fb5a55c4eacf3003-graduation-cap-icon-by-vexels.png"/>
+</head>
+<body>
+  <h1>Warmup (max 20 min.)</h1>
+  <ol>
+    <li>Click on 'run tests' to start the exercise!</li>
+    <li>Try to fix one test at a time</li>
+    <li>Write your JS in <span style="font-style: italic;">01-mastery-checks/YOUR_JAVASCRIPT_HERE.js</span></li>
+    <li>Don't forget to refresh the page each time you made an update!</li>
+  </ol>
+  <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
+  <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
+  <div id="mocha"></div>
+
+  <script src="https://unpkg.com/chai@4.1.2/chai.js"></script>
+  <script src="https://unpkg.com/mocha@4.0.1/mocha.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sinon@3/pkg/sinon.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="YOUR_JAVASCRIPT_HERE.js"></script>
+  <script src="tests.js"></script>
+
+</body>
+
+</html>
